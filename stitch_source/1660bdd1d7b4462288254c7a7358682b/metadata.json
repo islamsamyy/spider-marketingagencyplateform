@@ -1,0 +1,17 @@
+{
+  "deviceType": "DESKTOP",
+  "height": "8572",
+  "htmlCode": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/1660bdd1d7b4462288254c7a7358682b:download",
+    "mimeType": "text/html",
+    "name": "projects/7445829083626072837/screens/1660bdd1d7b4462288254c7a7358682b/fileEntries/html"
+  },
+  "name": "projects/7445829083626072837/screens/1660bdd1d7b4462288254c7a7358682b",
+  "screenshot": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/screenshot_00065f9b60a84e7e044f6021031311b3:download",
+    "mimeType": "image/png",
+    "name": "projects/7445829083626072837/screens/1660bdd1d7b4462288254c7a7358682b/fileEntries/screenshot"
+  },
+  "title": "بلاك سبايدر | الصفحة الرئيسية والخدمات (خلفية تفاعلية)",
+  "width": "2560"
+}

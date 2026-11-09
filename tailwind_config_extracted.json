@@ -1,0 +1,795 @@
+{darkMode:"class",theme:{extend:{colors:{"on-error":"#690005","secondary-container":"#ff525f","surface-tint":"#ff003c","on-primary-fixed-variant":"#92001e","on-secondary-container":"#5b0011","inverse-primary":"#bf002a","surface-container-highest":"#252429","on-tertiary-container":"#5b0019","surface-container-lowest":"#08080a","glow-crimson":"rgba(255, 0, 60, 0.4)","glow-red":"rgba(255, 23, 68, 0.35)","on-surface-variant":"#e9bcba","glow-violet":"rgba(180, 0, 50, 0.3)","primary-fixed-dim":"#ffb3b2","surface-container-low":"#131317","on-secondary":"#680014","on-secondary-fixed-variant":"#920021","on-surface":"#f3f0f2","inverse-surface":"#e5e1e4","outline-variant":"#442226","on-tertiary":"#67001e","surface-glass":"rgba(14, 14, 18, 0.75)","glow-cyan":"rgba(255, 0, 60, 0.35)","error-container":"#93000a","error":"#ffb4ab","surface-raised":"#111116","tertiary-container":"#ff506f","text-primary":"#FFFFFF","on-error-container":"#ffdad6","on-primary":"#ffffff","secondary":"#ffb3b3","tertiary":"#ffb2b8","inverse-on-surface":"#313032","tertiary-fixed":"#ffdadb","on-background":"#f3f0f2","on-tertiary-fixed":"#40000f","surface-bright":"#333238","on-primary-container":"#ffffff","on-primary-fixed":"#410008","text-muted":"#a39a9c","outline":"#8f565b","border-glass":"rgba(255, 255, 255, 0.08)","border-glass-glow":"rgba(255, 0, 60, 0.3)","surface-container-high":"#1f1e24","tertiary-fixed-dim":"#ff8090","surface-container":"#18171d","surface":"#0e0e12","on-secondary-fixed":"#400009","primary":"#ff2a55","background":"#0a0a0d","primary-container":"#ff003c","on-tertiary-fixed-variant":"#91002d","secondary-fixed-dim":"#ffb3b3","primary-fixed":"#ffdad8","secondary-fixed":"#ffdad9","surface-deep":"#08080a","surface-variant":"#252429","surface-dim":"#0a0a0d"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-mobile":"1.25rem","space-lg":"1.5rem","gutter":"1.5rem","margin":"3rem","space-xs":"0.25rem","space-xl":"2.5rem","space-sm":"0.5rem","space-md":"1rem","gutter-mobile":"1rem"},fontFamily:{"metric-display":["Space Grotesk"],"body-md":["IBM Plex Sans"],"label-md":["Space Grotesk"],"display-xl-mobile":["Space Grotesk"],"body-lg":["IBM Plex Sans"],"headline-lg-mobile":["Space Grotesk"],"body-sm":["IBM Plex Sans"],"label-sm":["Space Grotesk"],"display-xl":["Space Grotesk"],"headline-sm":["Space Grotesk"],"metric-display-mobile":["Space Grotesk"],"headline-md":["Space Grotesk"],"headline-lg":["Space Grotesk"],"label-lg":["Space Grotesk"]},fontSize:{"metric-display":["48px",{"lineHeight":"52px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"display-xl-mobile":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"500"}],"display-xl":["64px",{"lineHeight":"72px","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"metric-display-mobile":["36px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.05em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface-deep text-on-surface antialiased selection:bg-primary-container selection:text-white min-h-screen relative"><div class="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(#442226_1px,transparent_1px)] [background-size:24px_24px] opacity-25"></div><div class="fixed top-0 left-1/4 w-96 h-96 bg-primary-container/15 rounded-full blur-[150px] pointer-events-none z-0"></div><div class="fixed top-1/3 right-10 w-80 h-80 bg-primary/10 rounded-full blur-[150px] pointer-events-none z-0"></div><header class="fixed top-0 w-full z-50 bg-surface-glass backdrop-blur-xl border-b border-white/5 shadow-[0_12px_32px_-4px_rgba(255,0,60,0.12)]"><div class="h-20 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Black Spider Agency Logo" class="h-8 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,0,60,0.4)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaH-GIRC5n1Lp-eYtbo7xq0N-WrV1q3tnFG6hthiJ06RXae6AdC8XrjYx-Q07wul00EFr_bQW1QSdbCYSeklwHy9Fbs0hrD_IIT_UnUvlRG_qaqzT9uf345eMB88j7ggh1ewMxVxpxCq5kYr_abbbS50B5q4is-REsm2A5J_DU0q1hln_bh0c80eBUf6FVbtUVY6AOWCX6mLzf54QG44r82rYSifD3uXoWW8VLfRk"/><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-text-primary tracking-tight">بلاك سبايدر</span><span class="text-outline-variant font-label-sm text-label-sm">|</span><span class="font-label-md text-label-md text-primary tracking-widest uppercase">Black Spider</span></div><span class="font-label-sm text-label-sm text-primary-fixed-dim tracking-wide">وكالة نمو رقمي وهندسة برمجية</span></div></div><nav class="hidden xl:flex items-center gap-space-xs px-space-xs py-1 rounded-xl bg-surface-container-lowest/80 border border-white/5 backdrop-blur-md" data-active-classes="bg-surface-container-high text-primary font-semibold rounded-lg shadow-[0_0_14px_rgba(255,0,60,0.25)]"><a aria-current="page" class="px-space-md py-2 transition-all bg-surface-container-high text-primary font-semibold rounded-lg shadow-[0_0_14px_rgba(255,0,60,0.25)] border border-primary/20" data-path="home" href="#">الرئيسية</a><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-white hover:bg-surface-container transition-all rounded-lg" data-path="services" href="#">خدماتنا</a><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-white hover:bg-surface-container transition-all rounded-lg" data-path="portfolio" href="#">أعمالنا</a><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-white hover:bg-surface-container transition-all rounded-lg" data-path="pricing" href="#">الباقات والأسعار</a><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-white hover:bg-surface-container transition-all rounded-lg" data-path="about" href="#">عن الوكالة</a><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-white hover:bg-surface-container transition-all rounded-lg" data-path="admin-dashboard" href="#">لوحة الإدارة</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="flex items-center p-1 rounded-lg bg-surface-container-lowest border border-white/5 text-label-sm font-label-sm"><button class="px-space-xs py-1 rounded bg-primary-container text-white font-bold shadow-[0_0_12px_rgba(255,0,60,0.4)] transition-all" type="button">AR</button><button class="px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-all" type="button">EN</button></div><a class="hidden md:flex items-center gap-space-xs px-space-sm py-1.5 rounded-full bg-surface-container-low border border-primary/20 text-primary font-label-sm text-label-sm" data-path="admin-dashboard" href="#"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span></span><span class="">لوحة التحكم</span></a><a class="hidden sm:inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-primary-container text-white font-label-lg text-label-lg font-bold shadow-[0_0_24px_rgba(255,0,60,0.45)] hover:shadow-[0_0_34px_rgba(255,0,60,0.7)] hover:bg-[#e60036] transition-all transform hover:-translate-y-0.5" data-path="request-consultation" href="#">طلب استشارة مجانية / عرض سعر</a><div class="w-8 h-8 rounded-full bg-primary-container text-white flex items-center justify-center shrink-0 shadow-[0_0_14px_rgba(255,0,60,0.35)]"><span class="material-symbols-outlined text-white text-[18px]">person</span></div></div></div></header><main class="relative z-10 w-full pt-20 bg-transparent min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full overflow-hidden">
+<!-- HERO SECTION -->
+<section class="relative overflow-hidden w-full pt-12 pb-24 px-gutter flex flex-col items-center justify-center text-center">
+<!-- STITCH_THREEJS_START:ANIMATION_25 class="absolute inset-0 w-full h-full pointer-events-none z-0" -->
+<div class="absolute inset-0 w-full h-full pointer-events-none z-0" style="display:block;">
+<script src="https://ajax.googleapis.com/ajax/libs/threejs/r125/three.min.js"></script>
+<div id="threejs-container-ANIMATION_25" style="width:100%;height:100%"></div>
+<script>
+(function() {
+  const container = document.getElementById('threejs-container-ANIMATION_25');
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  // Interactive Cyber Spider Web Particle Network in Canvas / Vanilla JS
+const canvas = document.createElement('canvas');
+canvas.id = 'spider-web-canvas';
+canvas.style.position = 'absolute';
+canvas.style.top = '0';
+canvas.style.left = '0';
+canvas.style.width = '100%';
+canvas.style.height = '100%';
+canvas.style.pointerEvents = 'none';
+canvas.style.zIndex = '1';
+canvas.style.opacity = '0.75';
+
+const ctx = canvas.getContext('2d');
+let width = canvas.width = container.clientWidth || window.innerWidth;
+let height = canvas.height = container.clientHeight || 750;
+
+container.style.position = 'relative';
+container.appendChild(canvas);
+
+const numPoints = Math.min(Math.floor((width * height) / 9000), 75);
+const maxDistance = 140;
+const mouseReach = 180;
+const points = [];
+
+const mouse = {
+  x: -1000,
+  y: -1000,
+  targetX: -1000,
+  targetY: -1000,
+  active: false
+};
+
+for (let i = 0; i < numPoints; i++) {
+  points.push({
+    x: Math.random() * width,
+    y: Math.random() * height,
+    vx: (Math.random() - 0.5) * 0.7,
+    vy: (Math.random() - 0.5) * 0.7,
+    radius: Math.random() * 2 + 1.2,
+    baseColor: Math.random() > 0.3 ? '#ff003c' : '#ff3366',
+    pulse: Math.random() * Math.PI * 2
+  });
+}
+
+function onMouseMove(e) {
+  const rect = container.getBoundingClientRect();
+  mouse.x = e.clientX - rect.left;
+  mouse.y = e.clientY - rect.top;
+  mouse.active = true;
+}
+
+function onMouseLeave() {
+  mouse.active = false;
+  mouse.x = -1000;
+  mouse.y = -1000;
+}
+
+window.addEventListener('mousemove', onMouseMove);
+document.addEventListener('mouseleave', onMouseLeave);
+
+function onResize() {
+  width = canvas.width = container.clientWidth || window.innerWidth;
+  height = canvas.height = container.clientHeight || 750;
+}
+window.addEventListener('resize', onResize);
+
+let animId;
+function animate() {
+  animId = requestAnimationFrame(animate);
+  ctx.clearRect(0, 0, width, height);
+
+  // Update & draw points
+  for (let i = 0; i < points.length; i++) {
+    const pt = points[i];
+    pt.x += pt.vx;
+    pt.y += pt.vy;
+    pt.pulse += 0.03;
+
+    // Bounce off edges
+    if (pt.x < 0 || pt.x > width) pt.vx *= -1;
+    if (pt.y < 0 || pt.y > height) pt.vy *= -1;
+
+    // Interaction with mouse (Spider web pull & anchor)
+    if (mouse.active) {
+      const dx = mouse.x - pt.x;
+      const dy = mouse.y - pt.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < mouseReach) {
+        // Connect elastic web to cursor
+        const alpha = (1 - dist / mouseReach) * 0.85;
+        ctx.beginPath();
+        ctx.moveTo(pt.x, pt.y);
+        ctx.lineTo(mouse.x, mouse.y);
+        ctx.strokeStyle = `rgba(255, 0, 60, ${alpha})`;
+        ctx.lineWidth = (1 - dist / mouseReach) * 1.8;
+        ctx.shadowColor = '#ff003c';
+        ctx.shadowBlur = 6;
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+
+        // Subtle attraction
+        pt.x += dx * 0.015;
+        pt.y += dy * 0.015;
+      }
+    }
+
+    // Draw particle node
+    const glow = Math.sin(pt.pulse) * 0.5 + 1;
+    ctx.beginPath();
+    ctx.arc(pt.x, pt.y, pt.radius * glow, 0, Math.PI * 2);
+    ctx.fillStyle = pt.baseColor;
+    ctx.shadowColor = '#ff003c';
+    ctx.shadowBlur = 8;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+  }
+
+  // Draw web connections between points
+  for (let i = 0; i < points.length; i++) {
+    for (let j = i + 1; j < points.length; j++) {
+      const p1 = points[i];
+      const p2 = points[j];
+      const dx = p1.x - p2.x;
+      const dy = p1.y - p2.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+
+      if (dist < maxDistance) {
+        const alpha = (1 - dist / maxDistance) * 0.45;
+        ctx.beginPath();
+        ctx.moveTo(p1.x, p1.y);
+        ctx.lineTo(p2.x, p2.y);
+        ctx.strokeStyle = `rgba(255, 0, 60, ${alpha})`;
+        ctx.lineWidth = 0.8;
+        ctx.stroke();
+      }
+    }
+  }
+
+  // Draw concentric radial cyber web radar around mouse if active
+  if (mouse.active) {
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(mouse.x, mouse.y, 24, 0, Math.PI * 2);
+    ctx.strokeStyle = 'rgba(255, 0, 60, 0.4)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(mouse.x, mouse.y, 50, 0, Math.PI * 2);
+    ctx.strokeStyle = 'rgba(255, 0, 60, 0.2)';
+    ctx.setLineDash([4, 6]);
+    ctx.stroke();
+    ctx.restore();
+  }
+}
+animate();
+
+})();
+</script>
+</div>
+<!-- STITCH_THREEJS_END:ANIMATION_25 -->
+<!-- Ambient Cyber Crimson Glows -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-primary-container/15 rounded-full blur-[150px] pointer-events-none -z-10"></div>
+<div class="absolute top-1/3 right-1/4 w-[400px] h-[300px] bg-[#bf002a]/20 rounded-full blur-[130px] pointer-events-none -z-10"></div>
+<!-- Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-high/80 border border-primary/30 backdrop-blur-md shadow-sm mb-space-lg">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary-container"></span>
+</span>
+<span class="font-label-md text-label-md text-primary tracking-wide">⚡ وكالة الجيل الجديد للنمو الرقمي والحلول البرمجية</span>
+</div>
+<!-- Headline -->
+<h1 class="max-w-5xl font-display-xl text-display-xl text-text-primary tracking-tight leading-tight mb-space-md">
+      نحوّل الأفكار الطموحة إلى <span class="text-transparent bg-clip-text bg-gradient-to-l from-primary-container via-primary to-secondary">إيرادات متسارعة</span> وقصص نجاح استثنائية
+    </h1>
+<!-- Subheadline -->
+<p class="max-w-3xl font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-space-xl">
+      شريكك الاستراتيجي في إدارة الحملات الإعلانية فائقة العائد (Media Buying)، هندسة وتطوير المنصات الرقمية المتطورة، وصناعة المحتوى الإبداعي المؤثر للشركات في الخليج والشرق الأوسط.
+    </p>
+<!-- Dual Action CTAs -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md mb-space-xl w-full sm:w-auto">
+<a class="w-full sm:w-auto px-space-xl py-3.5 rounded-xl bg-primary-container text-white font-label-lg text-label-lg font-bold shadow-xl shadow-glow-crimson hover:bg-[#e60036] hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-space-xs" href="#growth-funnel">
+<span class="">طلب دراسة نمو وعرض سعر مجاناً</span>
+<span class="text-lg">🚀</span>
+</a>
+<a class="w-full sm:w-auto px-space-lg py-3.5 rounded-xl bg-surface-container-high/70 hover:bg-surface-container-highest border border-white/5 text-text-primary font-label-lg text-label-lg transition-all flex items-center justify-center gap-space-xs" href="#services-matrix">
+<span class="">استكشف خدماتنا الاستراتيجية</span>
+<span class="material-symbols-outlined text-primary text-[18px]">arrow_downward</span>
+</a>
+</div>
+<!-- Live Telemetry KPI Strip -->
+<div class="w-full max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-space-md mt-space-md">
+<div class="p-space-lg rounded-2xl bg-surface-container/60 border border-white/5 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-md hover:bg-surface-container-high/60 hover:border-primary/30 transition-all">
+<div class="flex items-baseline gap-1 mb-1">
+<span class="font-metric-display text-metric-display text-primary">+10M$</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">إجمالي الميزانيات المدارة</span>
+<div class="mt-space-xs flex items-center gap-1 text-primary-fixed-dim font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+<span class="">نمو تراكمي نشط</span>
+</div>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-container/60 border border-white/5 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-md hover:bg-surface-container-high/60 hover:border-primary/30 transition-all">
+<div class="flex items-baseline gap-1 mb-1">
+<span class="font-metric-display text-metric-display text-text-primary">+250</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">مشروع ومنصة برمجية أُطلقت</span>
+<div class="mt-space-xs flex items-center gap-1 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span class="">تسليم بنسبة 100%</span>
+</div>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-container/60 border border-white/5 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-md hover:bg-surface-container-high/60 hover:border-primary/30 transition-all">
+<div class="flex items-baseline gap-1 mb-1">
+<span class="font-metric-display text-metric-display text-secondary">4.8x</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">متوسط العائد الإعلاني (ROAS)</span>
+<div class="mt-space-xs flex items-center gap-1 text-primary-fixed-dim font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">insights</span>
+<span class="">تحسين تكلفة الاكتساب</span>
+</div>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-container/60 border border-white/5 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-md hover:bg-surface-container-high/60 hover:border-primary/30 transition-all">
+<div class="flex items-baseline gap-1 mb-1">
+<span class="font-metric-display text-metric-display text-primary">98%</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">نسبة رضا الشركاء والاستمرار</span>
+<div class="mt-space-xs flex items-center gap-1 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">stars</span>
+<span class="">عقود شراكة سنوية</span>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE SERVICES BREAKDOWN -->
+<section class="w-full py-20 px-gutter bg-surface-container-lowest/80 relative" id="services-matrix">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs font-label-md text-label-md text-primary">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-ping"></span>
+<span class="">معمارية النمو المتكاملة</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">خدمات مصممة لرفع كفاءة المنظومة التسويقية</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          نجمع بين التحليل الحسابي الدقيق والهندسة البرمجية المتطورة لإنشاء محركات نمو ذات قابلية توسع فورية.
+        </p>
+</div>
+<!-- Bento-style Service Matrix -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-lg">
+<!-- Service 1: Performance Marketing -->
+<div class="group flex flex-col rounded-3xl bg-surface-container/70 border border-white/5 hover:border-primary/30 p-space-xl shadow-lg hover:shadow-2xl hover:shadow-glow-crimson/10 hover:bg-surface-container-high transition-all">
+<div class="w-14 h-14 rounded-2xl bg-primary-container/15 border border-primary/20 flex items-center justify-center text-primary mb-space-lg">
+<span class="material-symbols-outlined text-3xl">query_stats</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase mb-space-xs">Media Buying &amp; Performance</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-md">الحملات الإعلانية وإدارة النمو</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+            استراتيجيات اقتناء عملاء مخصصة مدفوعة بتحليل البيانات الضخمة والاستهداف الدقيق لتحقيق أقصى عائد على الإنفاق الإعلاني.
+          </p>
+<div class="flex flex-col gap-space-sm mt-auto pt-space-md bg-surface-container-lowest/60 border border-white/5 p-space-md rounded-2xl">
+<span class="font-label-sm text-label-sm text-primary font-semibold">المخرجات والقنوات التنفيذية:</span>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[16px]">check</span>
+<span class="">Meta Ads (Instagram &amp; Facebook Scale)</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[16px]">check</span>
+<span class="">Google Search, Shopping &amp; YouTube Ads</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[16px]">check</span>
+<span class="">TikTok Ads &amp; Snapchat Hyper-growth</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[16px]">check</span>
+<span class="">تحسين معدل التحويل (CRO) وتتبع Pixels &amp; CAPI</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Service 2: Web & App Engineering -->
+<div class="group flex flex-col rounded-3xl bg-surface-container/70 border border-white/5 hover:border-secondary/30 p-space-xl shadow-lg hover:shadow-2xl hover:shadow-glow-crimson/10 hover:bg-surface-container-high transition-all">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container/20 border border-secondary/20 flex items-center justify-center text-secondary mb-space-lg">
+<span class="material-symbols-outlined text-3xl">developer_mode</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase mb-space-xs">Web &amp; Software Engineering</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-md">تطوير المواقع والتطبيقات الرقمية</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+            بنية تحتية هندسية مرنة، تجارب مستخدم تفاعلية فائقة السرعة، ولوحات تحكم مخصصة تدعم التوسع المؤسسي السلس.
+          </p>
+<div class="flex flex-col gap-space-sm mt-auto pt-space-md bg-surface-container-lowest/60 border border-white/5 p-space-md rounded-2xl">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">المخرجات والتقنيات:</span>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span>
+<span class="">متاجر إلكترونية عالية السرعة ومحسنة للشراء الفوري</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span>
+<span class="">منصات سحابية SaaS ولوحات تحكم تفاعلية معقدة</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span>
+<span class="">تطوير حديث باستخدام Next.js, React و Webflow</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span>
+<span class="">هيكلة متقدمة لمحركات البحث (Technical SEO)</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Service 3: Creative Production -->
+<div class="group flex flex-col rounded-3xl bg-surface-container/70 border border-white/5 hover:border-tertiary/30 p-space-xl shadow-lg hover:shadow-2xl hover:shadow-glow-crimson/10 hover:bg-surface-container-high transition-all">
+<div class="w-14 h-14 rounded-2xl bg-tertiary-container/20 border border-tertiary/20 flex items-center justify-center text-tertiary mb-space-lg">
+<span class="material-symbols-outlined text-3xl">auto_videocam</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary tracking-widest uppercase mb-space-xs">Creative &amp; Content Ops</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-md">الإنتاج الإبداعي وصناعة المحتوى</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+            محتوى بصري وسردي مصمم لإيقاف التمرير (Thumb-stopping)، غرس الثقة، وتحويل المشاهدين إلى عملاء دائمين لعلامتك.
+          </p>
+<div class="flex flex-col gap-space-sm mt-auto pt-space-md bg-surface-container-lowest/60 border border-white/5 p-space-md rounded-2xl">
+<span class="font-label-sm text-label-sm text-tertiary font-semibold">المخرجات الإبداعية:</span>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[16px]">check</span>
+<span class="">فيديوهات UGC أصلية وإعلانات موشن جرافيك ثلاثية الأبعاد</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[16px]">check</span>
+<span class="">استراتيجيات السرد البصري للعلامات الفاخرة والمبتكرة</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[16px]">check</span>
+<span class="">نصوص إعلانية بيعية مقنعة ومختبرة نفسياً (Copywriting)</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[16px]">check</span>
+<span class="">تصميم هويات بصرية وأنظمة واجهات متكاملة</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE PROOF & RESULTS COMPARISON -->
+<section class="w-full py-20 px-gutter relative">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<!-- Heading -->
+<div class="text-center flex flex-col items-center gap-space-xs">
+<span class="font-label-md text-label-md text-primary tracking-widest uppercase">نتائج ملموسة بالأرقام</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">أثر الشراكة مع بلاك سبايدر على أداء الأعمال</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          مقارنة واقعية توضح نقلة الأعمال من النمط التقليدي إلى النموذج التقني القائم على الهندسة والبيانات الدقيقة.
+        </p>
+</div>
+<!-- Before / After Grid Card -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg rounded-3xl bg-surface-container border border-white/5 p-space-lg lg:p-space-xl shadow-xl">
+<!-- Before Column -->
+<div class="flex flex-col p-space-lg rounded-2xl bg-surface-container-low/70 border border-white/5">
+<div class="flex items-center justify-between mb-space-lg pb-space-sm border-b border-surface-container-highest">
+<span class="font-headline-sm text-headline-sm text-text-muted">الوضع النمطي السابق</span>
+<span class="px-3 py-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">قبل بلاك سبايدر</span>
+</div>
+<div class="space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] shrink-0 mt-0.5">close</span>
+<p class="font-body-md text-body-md text-on-surface-variant">حملات إعلانية معتمدة على التخمين ونقص دقة البيانات التتبعية بعد تحديثات iOS.</p>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] shrink-0 mt-0.5">close</span>
+<p class="font-body-md text-body-md text-on-surface-variant">مواقع بطيئة بمعدل ارتداد يتجاوز 68% ومعدل تحويل متدنٍ (أقل من 1.2%).</p>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] shrink-0 mt-0.5">close</span>
+<p class="font-body-md text-body-md text-on-surface-variant">تكلفة اكتساب عميل مرتفعة وتذبذب غير مستقر في العائد الشهري على الإعلانات.</p>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] shrink-0 mt-0.5">close</span>
+<p class="font-body-md text-body-md text-on-surface-variant">محتوى رتيب لا يثير الانتباه ومعدل تفاعل ضعيف يقلل من جودة العلامة التجارية.</p>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-surface-container-highest flex items-center justify-between text-on-surface-variant font-label-md text-label-md">
+<span class="">متوسط العائد الإعلاني:</span>
+<span class="font-bold text-error">1.4x ROAS</span>
+</div>
+</div>
+<!-- After Column (The Agency Impact) -->
+<div class="flex flex-col p-space-lg rounded-2xl bg-surface-container-high border border-primary/30 shadow-md relative overflow-hidden">
+<div class="absolute -top-16 -left-16 w-32 h-32 bg-primary-container/25 rounded-full blur-2xl"></div>
+<div class="flex items-center justify-between mb-space-lg pb-space-sm border-b border-surface-container-highest">
+<span class="font-headline-sm text-headline-sm text-text-primary">المنظومة التقنية لـ بلاك سبايدر</span>
+<span class="px-3 py-1 rounded-full bg-primary-container text-white font-label-sm text-label-sm font-bold shadow-md shadow-glow-crimson">بعد التكامل معنا</span>
+</div>
+<div class="space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-md text-body-md text-text-primary">بنية إعلانية متكاملة بحسابات CAPI موحدة، واستهداف خوارزمي دقيق للشرائح عالية القيمة.</p>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-md text-body-md text-text-primary">منصات ومتاجر فائقة السرعة بزمن تحميل تحت ثانية واحدة ورفع التحويل بنسبة +85%.</p>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-md text-body-md text-text-primary">انخفاض مباشر بنسبة 45% في تكلفة الاكتساب واستقرار تام في مضاعفة الميزانيات المربحة.</p>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-md text-body-md text-text-primary">إنتاج محتوى فيديو UGC وسرد إبداعي عالي الجاذبية يضاعف ثقة العملاء ويحرك القرارات.</p>
+</div>
+</div>
+<!-- Highlight Metric Badges -->
+<div class="mt-space-lg pt-space-md border-t border-surface-container-highest grid grid-cols-3 gap-2 text-center">
+<div class="p-2 rounded-xl bg-surface-container border border-primary/20">
+<div class="font-metric-display-mobile text-metric-display-mobile text-primary leading-none">+340%</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">الزيارات المستهدفة</span>
+</div>
+<div class="p-2 rounded-xl bg-surface-container border border-secondary/20">
+<div class="font-metric-display-mobile text-metric-display-mobile text-secondary leading-none">4.2x</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">متوسط الـ ROAS</span>
+</div>
+<div class="p-2 rounded-xl bg-surface-container border border-tertiary/20">
+<div class="font-metric-display-mobile text-metric-display-mobile text-tertiary-fixed-dim leading-none">-45%</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">تكلفة الاكتساب CPA</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Testimonial Showcase Strip -->
+<div class="mt-space-lg rounded-3xl bg-surface-container-low border border-white/5 p-space-xl relative overflow-hidden">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="flex flex-col gap-space-sm max-w-xl">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-text-primary leading-relaxed">"التعاون مع بلاك سبايدر لم يكن مجرد استئجار وكالة إعلانية؛ بل كان نقلة جذرية في معمارية منصتنا التقنية وتدفق مبيعاتنا في السعودية والإمارات. تضاعفت مبيعاتنا الشهرية 3 مرات خلال 90 يوماً فقط."</p>
+<div class="flex items-center gap-space-md mt-space-sm">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest border border-primary/20 flex items-center justify-center font-bold text-primary">
+                ع.م
+              </div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-text-primary">عبد الرحمن المنصور</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">الرئيس التنفيذي، مجموعة ريادة للتجارة والحلول الرقمية</span>
+</div>
+</div>
+</div>
+<!-- Quick Case Proof Card -->
+<div class="p-space-lg rounded-2xl bg-surface-container-highest/60 border border-white/5 backdrop-blur-md w-full lg:w-80 flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">دراسة حالة موجزة</span>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface-variant">القطاع:</span>
+<span class="font-label-md text-label-md text-text-primary">تجارة إلكترونية سريعة</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface-variant">المدة:</span>
+<span class="font-label-md text-label-md text-text-primary">90 يوماً</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface-variant">صافي المبيعات المحققة:</span>
+<span class="font-label-md text-label-md text-primary font-bold">+1,850,000 ر.س</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container overflow-hidden">
+<div class="w-4/5 h-full bg-gradient-to-r from-primary-container to-secondary"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MULTI-STEP INTERACTIVE LEAD CAPTURE FUNNEL -->
+<section class="w-full py-20 px-gutter relative" id="growth-funnel">
+<div class="max-w-4xl mx-auto flex flex-col items-center">
+<!-- Section Header -->
+<div class="text-center mb-space-xl flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs font-label-md text-label-md text-primary mx-auto">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="">دراسة الجدوى وبدء الشراكة</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">طلب دراسة نمو مخصصة وعرض سعر استراتيجي</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          أجب عن الخطوات البسيطة التالية لنقوم بتحليل وضع علامتك الحالية وإعداد خارطة طريق واضحة بالأرقام قبل جلسة النقاش.
+        </p>
+</div>
+<!-- Funnel Form Container -->
+<div class="w-full rounded-3xl bg-surface-container/90 border border-white/5 backdrop-blur-xl p-space-lg md:p-space-xl shadow-2xl relative shadow-glow-crimson/10">
+<!-- Step Progress Indicator -->
+<div class="flex items-center justify-between mb-space-xl pb-space-md border-b border-surface-container-highest">
+<div class="flex items-center gap-space-sm" id="step-nav-1">
+<span class="w-8 h-8 rounded-full bg-primary-container text-white font-bold flex items-center justify-center font-label-md text-label-md shadow-[0_0_10px_rgba(255,0,60,0.5)]" id="step-badge-1">1</span>
+<span class="hidden sm:inline font-label-md text-label-md text-text-primary" id="step-label-1">الخدمة المطلوبة</span>
+</div>
+<div class="h-0.5 flex-1 mx-space-sm bg-surface-container-highest relative">
+<div class="absolute top-0 right-0 h-full bg-primary-container shadow-[0_0_8px_rgba(255,0,60,0.6)] transition-all duration-300 w-1/3" id="progress-bar-inner"></div>
+</div>
+<div class="flex items-center gap-space-sm" id="step-nav-2">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant font-bold flex items-center justify-center font-label-md text-label-md" id="step-badge-2">2</span>
+<span class="hidden sm:inline font-label-md text-label-md text-on-surface-variant" id="step-label-2">الميزانية الشهرية</span>
+</div>
+<div class="h-0.5 flex-1 mx-space-sm bg-surface-container-highest"></div>
+<div class="flex items-center gap-space-sm" id="step-nav-3">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant font-bold flex items-center justify-center font-label-md text-label-md" id="step-badge-3">3</span>
+<span class="hidden sm:inline font-label-md text-label-md text-on-surface-variant" id="step-label-3">بيانات التواصل</span>
+</div>
+</div>
+<form id="growth-inquiry-form" onsubmit="handleFormSubmit(event)">
+<!-- STEP 1: Service Selection -->
+<div class="flex flex-col gap-space-md" id="step-1">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">ما هي الخدمة الأساسية التي ترغب في تسريعها؟</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">اختر المسار الأقرب لأهداف عملك الحالية:</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<label class="service-option relative flex items-start gap-space-md p-space-lg rounded-2xl bg-surface-container-low border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 transition-all">
+<input checked="" class="mt-1 accent-primary-container" name="service" type="radio" value="media_buying"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-text-primary">إدارة الحملات الإعلانية والنمو</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Media Buying على منصات Meta, Google, TikTok مع CRO.</span>
+</div>
+</label>
+<label class="service-option relative flex items-start gap-space-md p-space-lg rounded-2xl bg-surface-container-low border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 transition-all">
+<input class="mt-1 accent-primary-container" name="service" type="radio" value="web_engineering"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-text-primary">تطوير المواقع والتطبيقات الرقمية</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">هندسة متاجر سريعة، منصات SaaS، وتطوير Next.js.</span>
+</div>
+</label>
+<label class="service-option relative flex items-start gap-space-md p-space-lg rounded-2xl bg-surface-container-low border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 transition-all">
+<input class="mt-1 accent-primary-container" name="service" type="radio" value="creative_content"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-text-primary">الإنتاج الإبداعي وصناعة المحتوى</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">فيديوهات UGC تفاعلية، موشن جرافيك، وهوية رقمية.</span>
+</div>
+</label>
+<label class="service-option relative flex items-start gap-space-md p-space-lg rounded-2xl bg-surface-container-low border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 transition-all">
+<input class="mt-1 accent-primary-container" name="service" type="radio" value="full_growth_suite"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-text-primary">الباقة الشاملة (Full Growth Suite)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">شراكة تكاملية: حملات إعلانية + تطوير مستمر + إنتاج محتوى.</span>
+</div>
+</label>
+</div>
+<div class="flex justify-end mt-space-lg">
+<button class="px-space-xl py-3 rounded-xl bg-primary-container text-white font-label-lg text-label-lg font-bold hover:shadow-lg hover:shadow-glow-crimson hover:bg-[#e60036] transition-all flex items-center gap-space-xs" onclick="goToStep(2)" type="button">
+<span class="">التالي: تحديد الميزانية</span>
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+</button>
+</div>
+</div>
+<!-- STEP 2: Budget Allocation -->
+<div class="hidden flex-col gap-space-md" id="step-2">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">ما هو حجم الميزانية الشهرية المقدرة للتسويق والإنفاق؟</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">يساعدنا ذلك في تحديد حجم الفريق والمنهجية التشغيلية الأنسب لمشروعكم:</p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<label class="budget-option relative flex flex-col items-center justify-center p-space-xl rounded-2xl bg-surface-container-low border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 transition-all text-center">
+<input checked="" class="mb-3 accent-primary-container" name="budget" type="radio" value="2000_5000"/>
+<span class="font-headline-sm text-headline-sm text-text-primary">$2,000 - $5,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">انطلاقة سريعة واختبار السوق</span>
+</label>
+<label class="budget-option relative flex flex-col items-center justify-center p-space-xl rounded-2xl bg-surface-container-low border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 transition-all text-center">
+<input class="mb-3 accent-primary-container" name="budget" type="radio" value="5000_15000"/>
+<span class="font-headline-sm text-headline-sm text-text-primary">$5,000 - $15,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">مرحلة النمو والتوسع (Scaling)</span>
+</label>
+<label class="budget-option relative flex flex-col items-center justify-center p-space-xl rounded-2xl bg-surface-container-low border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 transition-all text-center">
+<input class="mb-3 accent-primary-container" name="budget" type="radio" value="15000_plus"/>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">+$15,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">هيمنة قطاعية وميزانيات مؤسسية</span>
+</label>
+</div>
+<div class="flex items-center justify-between mt-space-lg">
+<button class="px-space-md py-3 rounded-xl bg-surface-container-highest text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all" onclick="goToStep(1)" type="button">
+<span class="">العودة للخلف</span>
+</button>
+<button class="px-space-xl py-3 rounded-xl bg-primary-container text-white font-label-lg text-label-lg font-bold hover:shadow-lg hover:shadow-glow-crimson hover:bg-[#e60036] transition-all flex items-center gap-space-xs" onclick="goToStep(3)" type="button">
+<span class="">التالي: بيانات التواصل</span>
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+</button>
+</div>
+</div>
+<!-- STEP 3: Company & Contact Information -->
+<div class="hidden flex-col gap-space-md" id="step-3"><h3 class="font-headline-sm text-headline-sm text-text-primary">أين يمكننا إرسال دراسة النمو والتواصل معكم؟</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">سيتواصل معك خبير استراتيجي من فريقنا وسنرسل تقريرك مباشرة عبر قنواتك المفضلة:</p>
+<!-- Interactive Smart Notification Feature Banner -->
+<div class="p-space-md rounded-2xl bg-gradient-to-r from-primary-container/20 via-surface-container-high to-[#bf002a]/20 border border-primary-container/40 shadow-[0_0_24px_rgba(255,0,60,0.15)] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary-container/20 border border-primary/30 text-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px] animate-pulse">notifications_active</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md text-primary font-bold">تفعيل الإشعار اللحظي الذكي</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-container/20 text-primary-fixed font-label-sm text-label-sm font-semibold flex items-center gap-1 border border-primary/30">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-ping"></span> فوري &lt; 15 دقيقة
+        </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">سيتم إرسال نسخة من ملخص التحليل الاستراتيجي ودراسة الجدوى فورياً إلى هاتفك عبر الواتساب أو التيليجرام.</span>
+</div>
+</div>
+<label class="flex items-center gap-2 cursor-pointer shrink-0">
+<span class="font-label-sm text-label-sm text-text-primary">تنشيط التنبيهات</span>
+<input checked="" class="accent-primary-container h-5 w-5 cursor-pointer" type="checkbox"/>
+</label>
+</div>
+<!-- Notification Channel Switcher / Toggle -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<label class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px]">cell_tower</span>
+<span class="">حدد القناة المفضلة لاستلام التنبيهات والتقرير الفوري:</span>
+</label>
+<div class="grid grid-cols-3 gap-space-sm">
+<label class="cursor-pointer flex items-center justify-center gap-space-xs p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all text-center border border-white/5 has-[:checked]:border-primary-container has-[:checked]:bg-surface-container-high">
+<input checked="" class="accent-primary-container" name="notify_channel" type="radio" value="whatsapp"/>
+<span class="font-label-sm text-label-sm text-text-primary flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-[#25D366]"></span> واتساب
+      </span>
+</label>
+<label class="cursor-pointer flex items-center justify-center gap-space-xs p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all text-center border border-white/5 has-[:checked]:border-primary-container has-[:checked]:bg-surface-container-high">
+<input class="accent-primary-container" name="notify_channel" type="radio" value="telegram"/>
+<span class="font-label-sm text-label-sm text-text-primary flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary"></span> تيليجرام
+      </span>
+</label>
+<label class="cursor-pointer flex items-center justify-center gap-space-xs p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all text-center border border-white/5 has-[:checked]:border-primary-container has-[:checked]:bg-surface-container-high">
+<input class="accent-primary-container" name="notify_channel" type="radio" value="both"/>
+<span class="font-label-sm text-label-sm text-text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">bolt</span> كلاهما معاً
+      </span>
+</label>
+</div>
+</div>
+<!-- Form Inputs Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface">اسم الشركة / المشروع *</label>
+<input class="w-full px-space-md py-3 rounded-xl bg-surface-container-low border border-white/5 text-text-primary placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary-container focus:border-primary-container font-body-sm text-body-sm" id="company_name" placeholder="مثال: متجر مسار للتقنية" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface">البريد الإلكتروني المهني *</label>
+<input class="w-full px-space-md py-3 rounded-xl bg-surface-container-low border border-white/5 text-text-primary placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary-container focus:border-primary-container font-body-sm text-body-sm text-left" dir="ltr" id="business_email" placeholder="ceo@company.com" required="" type="email"/>
+</div>
+<!-- WhatsApp Channel Field -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl bg-surface-container-low/70 border border-[#25D366]/20">
+<div class="flex items-center justify-between">
+<label class="font-label-sm text-label-sm text-on-surface flex items-center gap-1.5">
+<span class="w-4 h-4 rounded-full bg-[#25D366] text-black flex items-center justify-center font-bold text-[10px]">W</span>
+<span class="">رقم الواتساب للتنبيه اللحظي *</span>
+</label>
+<span class="font-label-sm text-[11px] text-[#25D366] flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px]">verified</span> WhatsApp Instant
+      </span>
+</div>
+<input class="w-full px-space-md py-2.5 rounded-lg bg-surface-container text-text-primary placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-[#25D366] font-body-sm text-body-sm text-left" dir="ltr" id="whatsapp_number" placeholder="+966 5x xxx xxxx" required="" type="tel"/>
+</div>
+<!-- Telegram Bot Alert Field -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl bg-surface-container-low/70 border border-primary/20">
+<div class="flex items-center justify-between">
+<label class="font-label-sm text-label-sm text-on-surface flex items-center gap-1.5">
+<span class="w-4 h-4 rounded-full bg-primary text-white flex items-center justify-center font-bold text-[10px]">T</span>
+<span class="">معرف تيليجرام (Telegram Bot Alerts)</span>
+</label>
+<span class="font-label-sm text-[11px] text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px]">smart_toy</span> Bot Alerts
+      </span>
+</div>
+<input class="w-full px-space-md py-2.5 rounded-lg bg-surface-container text-text-primary placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary font-body-sm text-body-sm text-left" dir="ltr" id="telegram_handle" placeholder="@username أو رابط القناة" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs sm:col-span-2">
+<label class="font-label-sm text-label-sm text-on-surface">رابط الموقع أو المتجر الحالي (إن وجد)</label>
+<input class="w-full px-space-md py-3 rounded-xl bg-surface-container-low border border-white/5 text-text-primary placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary-container focus:border-primary-container font-body-sm text-body-sm" id="company_website" placeholder="https://example.com" type="url"/>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-lg">
+<button class="px-space-md py-3 rounded-xl bg-surface-container-highest text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all" onclick="goToStep(2)" type="button">
+<span class="">العودة للخلف</span>
+</button>
+<button class="px-space-xl py-3.5 rounded-xl bg-primary-container text-white font-label-lg text-label-lg font-bold hover:shadow-xl hover:shadow-glow-crimson hover:bg-[#e60036] transition-all flex items-center gap-space-xs" type="submit">
+<span class="">إرسال وتفعيل الإشعار الفوري</span>
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+</div></div>
+<!-- SUCCESS STATE -->
+<div class="hidden flex-col items-center justify-center text-center py-space-xl" id="step-success"><div class="w-16 h-16 rounded-full bg-primary-container/20 text-primary border border-primary/30 flex items-center justify-center mb-space-md animate-bounce shadow-glow-crimson">
+<span class="material-symbols-outlined text-4xl">verified</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">تم استلام طلبك وتفعيل التنبيه اللحظي!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg mb-space-md">
+  تم إرسال تأكيد الربط الفوري عبر نظام التنبيهات. ستحصل على ملخص دراسة النمو وخارطة الطريق الرقمية عبر <span class="text-[#25D366] font-semibold">واتساب</span> و <span class="text-primary font-semibold">تيليجرام</span> خلال أقل من 15 دقيقة.
+</p>
+<div class="flex items-center gap-space-sm mb-space-lg">
+<span class="px-space-md py-1.5 rounded-full bg-[#25D366]/10 text-[#25D366] border border-[#25D366]/30 font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span> تم ربط واتساب
+  </span>
+<span class="px-space-md py-1.5 rounded-full bg-primary-container/10 text-primary border border-primary/30 font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span> تم تنشيط بوت تيليجرام
+  </span>
+</div>
+<div class="px-space-md py-2 rounded-xl bg-surface-container-high border border-primary/30 text-primary font-label-md text-label-md">مرجع الطلب: #BSP-<span class="" id="ref-number">9821</span></div></div>
+</form>
+</div>
+</div>
+</section>
+<!-- QUICK FAQ & ASSURANCE -->
+<section class="w-full py-16 px-gutter bg-surface-container-lowest/60">
+<div class="max-w-4xl mx-auto flex flex-col gap-space-lg">
+<div class="text-center">
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-1">الأسئلة الشائعة حول نموذج العمل</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">شفافية كاملة في كل مراحل التعاقد والتنفيذ التقني.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="p-space-lg rounded-2xl bg-surface-container/60 border border-white/5">
+<h4 class="font-label-lg text-label-lg text-text-primary mb-space-xs">متى تبدأ النتائج الفعلية بالظهور؟</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            تبدأ مؤشرات التحسن في البيانات التتبعية وتحسين معدل التحويل خلال أول أسبوعين، بينما يستقر العائد الإعلاني المضاعف (Scale) عادة بين الأسبوع الثالث والرابع.
+          </p>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-container/60 border border-white/5">
+<h4 class="font-label-lg text-label-lg text-text-primary mb-space-xs">هل الحسابات الإعلانية والأصول تكون ملكي بالكامل؟</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            نعم تماماً وبنسبة 100%. جميع أصول الـ Meta و Google والأكواد البرمجية للمتاجر تبقى مسجلة بملكيتكم الكاملة مع منح فريقنا حق الإدارة فقط.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SCRIPT FOR FUNNEL INTERACTION -->
+<script>
+    function goToStep(step) {
+      document.getElementById('step-1').classList.add('hidden');
+      document.getElementById('step-2').classList.add('hidden');
+      document.getElementById('step-3').classList.add('hidden');
+      document.getElementById('step-success').classList.add('hidden');
+
+      const activeSection = document.getElementById('step-' + step);
+      if (activeSection) {
+        activeSection.classList.remove('hidden');
+        activeSection.classList.add('flex');
+      }
+
+      const progressBar = document.getElementById('progress-bar-inner');
+      const badge1 = document.getElementById('step-badge-1');
+      const badge2 = document.getElementById('step-badge-2');
+      const badge3 = document.getElementById('step-badge-3');
+
+      if (step === 1) {
+        progressBar.style.width = '33%';
+        badge1.className = 'w-8 h-8 rounded-full bg-primary-container text-white font-bold flex items-center justify-center font-label-md text-label-md shadow-[0_0_10px_rgba(255,0,60,0.5)]';
+        badge2.className = 'w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant font-bold flex items-center justify-center font-label-md text-label-md';
+        badge3.className = 'w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant font-bold flex items-center justify-center font-label-md text-label-md';
+      } else if (step === 2) {
+        progressBar.style.width = '66%';
+        badge1.className = 'w-8 h-8 rounded-full bg-primary text-white font-bold flex items-center justify-center font-label-md text-label-md';
+        badge2.className = 'w-8 h-8 rounded-full bg-primary-container text-white font-bold flex items-center justify-center font-label-md text-label-md shadow-[0_0_10px_rgba(255,0,60,0.5)]';
+        badge3.className = 'w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant font-bold flex items-center justify-center font-label-md text-label-md';
+      } else if (step === 3) {
+        progressBar.style.width = '100%';
+        badge1.className = 'w-8 h-8 rounded-full bg-primary text-white font-bold flex items-center justify-center font-label-md text-label-md';
+        badge2.className = 'w-8 h-8 rounded-full bg-primary text-white font-bold flex items-center justify-center font-label-md text-label-md';
+        badge3.className = 'w-8 h-8 rounded-full bg-primary-container text-white font-bold flex items-center justify-center font-label-md text-label-md shadow-[0_0_10px_rgba(255,0,60,0.5)]';
+      }
+    }
+
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      document.getElementById('step-1').classList.add('hidden');
+      document.getElementById('step-2').classList.add('hidden');
+      document.getElementById('step-3').classList.add('hidden');
+
+      const success = document.getElementById('step-success');
+      success.classList.remove('hidden');
+      success.classList.add('flex');
+
+      document.getElementById('ref-number').textContent = Math.floor(1000 + Math.random() * 9000);
+      document.getElementById('progress-bar-inner').style.width = '100%';
+    }

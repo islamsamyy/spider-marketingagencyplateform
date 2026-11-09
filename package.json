@@ -1,0 +1,13 @@
+{
+  "name": "black-spider",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix spider run dev",
+    "build": "npm --prefix spider run build",
+    "start": "npm --prefix spider run start",
+    "lint": "npm --prefix spider run lint",
+    "test": "npm --prefix spider test"
+  }
+}
+

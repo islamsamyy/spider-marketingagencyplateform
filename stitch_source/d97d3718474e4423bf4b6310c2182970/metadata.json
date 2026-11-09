@@ -1,0 +1,17 @@
+{
+  "deviceType": "DESKTOP",
+  "height": "5948",
+  "htmlCode": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/d97d3718474e4423bf4b6310c2182970:download",
+    "mimeType": "text/html",
+    "name": "projects/7445829083626072837/screens/d97d3718474e4423bf4b6310c2182970/fileEntries/html"
+  },
+  "name": "projects/7445829083626072837/screens/d97d3718474e4423bf4b6310c2182970",
+  "screenshot": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/screenshot_00065f9b35f4f4a30968969e7715db9b:download",
+    "mimeType": "image/png",
+    "name": "projects/7445829083626072837/screens/d97d3718474e4423bf4b6310c2182970/fileEntries/screenshot"
+  },
+  "title": "بلاك سبايدر | سابقة الأعمال ودراسات الحالة",
+  "width": "2560"
+}

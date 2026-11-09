@@ -1,0 +1,17 @@
+{
+  "deviceType": "DESKTOP",
+  "height": "3782",
+  "htmlCode": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/1b169ae7282443c7b1e065bc049508da:download",
+    "mimeType": "text/html",
+    "name": "projects/7445829083626072837/screens/1b169ae7282443c7b1e065bc049508da/fileEntries/html"
+  },
+  "name": "projects/7445829083626072837/screens/1b169ae7282443c7b1e065bc049508da",
+  "screenshot": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/screenshot_00065fc41925710009688609b7088613:download",
+    "mimeType": "image/png",
+    "name": "projects/7445829083626072837/screens/1b169ae7282443c7b1e065bc049508da/fileEntries/screenshot"
+  },
+  "title": "بلاك سبايدر | لوحة الإدارة المتكاملة",
+  "width": "2560"
+}

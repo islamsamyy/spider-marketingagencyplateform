@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+<!-- STITCH_THREEJS_START:ANIMATION_25 class="fixed inset-0 w-full h-full bg-transparent" -->
+<div class="fixed inset-0 w-full h-full bg-transparent" style="display:block;">
+<script src="https://ajax.googleapis.com/ajax/libs/threejs/r125/three.min.js"></script>
+<div id="threejs-container-ANIMATION_25" style="width:100%;height:100%"></div>
+<script>
+(function() {
+  const container = document.getElementById('threejs-container-ANIMATION_25');
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  // Interactive Cyber Spider Web Particle Network in Canvas / Vanilla JS
+const canvas = document.createElement('canvas');
+canvas.id = 'spider-web-canvas';
+canvas.style.position = 'absolute';
+canvas.style.top = '0';
+canvas.style.left = '0';
+canvas.style.width = '100%';
+canvas.style.height = '100%';
+canvas.style.pointerEvents = 'none';
+canvas.style.zIndex = '1';
+canvas.style.opacity = '0.75';
+
+const ctx = canvas.getContext('2d');
+let width = canvas.width = container.clientWidth || window.innerWidth;
+let height = canvas.height = container.clientHeight || 750;
+
+container.style.position = 'relative';
+container.appendChild(canvas);
+
+const numPoints = Math.min(Math.floor((width * height) / 9000), 75);
+const maxDistance = 140;
+const mouseReach = 180;
+const points = [];
+
+const mouse = {
+  x: -1000,
+  y: -1000,
+  targetX: -1000,
+  targetY: -1000,
+  active: false
+};
+
+for (let i = 0; i < numPoints; i++) {
+  points.push({
+    x: Math.random() * width,
+    y: Math.random() * height,
+    vx: (Math.random() - 0.5) * 0.7,
+    vy: (Math.random() - 0.5) * 0.7,
+    radius: Math.random() * 2 + 1.2,
+    baseColor: Math.random() > 0.3 ? '#ff003c' : '#ff3366',
+    pulse: Math.random() * Math.PI * 2
+  });
+}
+
+function onMouseMove(e) {
+  const rect = container.getBoundingClientRect();
+  mouse.x = e.clientX - rect.left;
+  mouse.y = e.clientY - rect.top;
+  mouse.active = true;
+}
+
+function onMouseLeave() {
+  mouse.active = false;
+  mouse.x = -1000;
+  mouse.y = -1000;
+}
+
+window.addEventListener('mousemove', onMouseMove);
+document.addEventListener('mouseleave', onMouseLeave);
+
+function onResize() {
+  width = canvas.width = container.clientWidth || window.innerWidth;
+  height = canvas.height = container.clientHeight || 750;
+}
+window.addEventListener('resize', onResize);
+
+let animId;
+function animate() {
+  animId = requestAnimationFrame(animate);
+  ctx.clearRect(0, 0, width, height);
+
+  // Update & draw points
+  for (let i = 0; i < points.length; i++) {
+    const pt = points[i];
+    pt.x += pt.vx;
+    pt.y += pt.vy;
+    pt.pulse += 0.03;
+
+    // Bounce off edges
+    if (pt.x < 0 || pt.x > width) pt.vx *= -1;
+    if (pt.y < 0 || pt.y > height) pt.vy *= -1;
+
+    // Interaction with mouse (Spider web pull & anchor)
+    if (mouse.active) {
+      const dx = mouse.x - pt.x;
+      const dy = mouse.y - pt.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < mouseReach) {
+        // Connect elastic web to cursor
+        const alpha = (1 - dist / mouseReach) * 0.85;
+        ctx.beginPath();
+        ctx.moveTo(pt.x, pt.y);
+        ctx.lineTo(mouse.x, mouse.y);
+        ctx.strokeStyle = `rgba(255, 0, 60, ${alpha})`;
+        ctx.lineWidth = (1 - dist / mouseReach) * 1.8;
+        ctx.shadowColor = '#ff003c';
+        ctx.shadowBlur = 6;
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+
+        // Subtle attraction
+        pt.x += dx * 0.015;
+        pt.y += dy * 0.015;
+      }
+    }
+
+    // Draw particle node
+    const glow = Math.sin(pt.pulse) * 0.5 + 1;
+    ctx.beginPath();
+    ctx.arc(pt.x, pt.y, pt.radius * glow, 0, Math.PI * 2);
+    ctx.fillStyle = pt.baseColor;
+    ctx.shadowColor = '#ff003c';
+    ctx.shadowBlur = 8;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+  }
+
+  // Draw web connections between points
+  for (let i = 0; i < points.length; i++) {
+    for (let j = i + 1; j < points.length; j++) {
+      const p1 = points[i];
+      const p2 = points[j];
+      const dx = p1.x - p2.x;
+      const dy = p1.y - p2.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+
+      if (dist < maxDistance) {
+        const alpha = (1 - dist / maxDistance) * 0.45;
+        ctx.beginPath();
+        ctx.moveTo(p1.x, p1.y);
+        ctx.lineTo(p2.x, p2.y);
+        ctx.strokeStyle = `rgba(255, 0, 60, ${alpha})`;
+        ctx.lineWidth = 0.8;
+        ctx.stroke();
+      }
+    }
+  }
+
+  // Draw concentric radial cyber web radar around mouse if active
+  if (mouse.active) {
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(mouse.x, mouse.y, 24, 0, Math.PI * 2);
+    ctx.strokeStyle = 'rgba(255, 0, 60, 0.4)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(mouse.x, mouse.y, 50, 0, Math.PI * 2);
+    ctx.strokeStyle = 'rgba(255, 0, 60, 0.2)';
+    ctx.setLineDash([4, 6]);
+    ctx.stroke();
+    ctx.restore();
+  }
+}
+animate();
+
+})();
+</script>
+</div>
+<!-- STITCH_THREEJS_END:ANIMATION_25 -->
+</body>
+</html>

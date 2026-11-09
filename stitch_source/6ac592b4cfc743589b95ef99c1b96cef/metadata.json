@@ -1,0 +1,17 @@
+{
+  "deviceType": "DESKTOP",
+  "height": "6716",
+  "htmlCode": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/6ac592b4cfc743589b95ef99c1b96cef:download",
+    "mimeType": "text/html",
+    "name": "projects/7445829083626072837/screens/6ac592b4cfc743589b95ef99c1b96cef/fileEntries/html"
+  },
+  "name": "projects/7445829083626072837/screens/6ac592b4cfc743589b95ef99c1b96cef",
+  "screenshot": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/screenshot_00065fc4112c254304e74fccd01e3372:download",
+    "mimeType": "image/png",
+    "name": "projects/7445829083626072837/screens/6ac592b4cfc743589b95ef99c1b96cef/fileEntries/screenshot"
+  },
+  "title": "بلاك سبايدر | الباقات ومُهيّئ الأسعار (خلفية تفاعلية)",
+  "width": "2560"
+}

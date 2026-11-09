@@ -1,0 +1,17 @@
+{
+  "deviceType": "DESKTOP",
+  "height": "6716",
+  "htmlCode": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/51ad4365b77240bf95e61c797374beb9:download",
+    "mimeType": "text/html",
+    "name": "projects/7445829083626072837/screens/51ad4365b77240bf95e61c797374beb9/fileEntries/html"
+  },
+  "name": "projects/7445829083626072837/screens/51ad4365b77240bf95e61c797374beb9",
+  "screenshot": {
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/7445829083626072837/files/screenshot_00065f9b362741c40356d7c35e0bd7f1:download",
+    "mimeType": "image/png",
+    "name": "projects/7445829083626072837/screens/51ad4365b77240bf95e61c797374beb9/fileEntries/screenshot"
+  },
+  "title": "بلاك سبايدر | الباقات ومُهيّئ الأسعار",
+  "width": "2560"
+}
